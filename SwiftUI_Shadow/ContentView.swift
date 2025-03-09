@@ -20,9 +20,9 @@ struct ContentView: View {
                 Spacer()
                 HStack{
                     
-                    Image("ali").resizable().resizable()
+                    Image("Bart").resizable().resizable()
                         .frame(width: UIScreen.main.bounds.width * 0.2, height: UIScreen.main.bounds.height * 0.1, alignment: .center)
-                        .clipShape(Circle()).shadow(color: Color("GolgeRenk"), radius: 4, x:-4, y:4)
+                        .clipShape(Circle()).shadow(color: Color(.black), radius: 4, x:-4, y:4)
                         .shadow(radius: 4, x: 4, y: 4)
                         .padding()
                     VStack(alignment: .leading, spacing: 10){
